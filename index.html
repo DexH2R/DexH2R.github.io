@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>DexH2R</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon_dexh2r.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title"><span style="color: #184cff; font-weight: bold;">DexH2R</span>: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://wang-youzhuo.github.io/" target="_blank">Youzhuo Wang</a><sup>1,*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://jennyye1224.github.io/" target="_blank">Jiayi Ye</a><sup>1,*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://xiaochy.github.io/" target="_blank">Chuyang Xiao</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://ymzhong66.github.io/" target="_blank">Yiming Zhong</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                Heng Tao<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://hangyu04.github.io/" target="_blank">Hang Yu</a><sup>1</sup>,
+              </span>
+              <br>
+              <span class="author-block">
+                <a href="https://lym29.github.io/" target="_blank">Yumeng Liu</a><sup>1,2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="http://www.yu-jingyi.com/" target="_blank"> Jingyi Yu</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://yuexinma.me/" target="_blank"> Yuexin Ma</a><sup>1,&dagger;</sup>
+              </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <sup>1</sup>ShanghaiTech University,
+              <sup>2</sup>The University of Hong Kong
+              <br><span style="color: rgb(177, 44, 44); font-weight: bold;">ICCV 2025</span>
+            </span>
+            <span class="eql-cntrb"><small><br>
+              <sup>*</sup>Indicates Equal Contribution<br>
+              <sup>&dagger;</sup>Indicates Corresponding Author<br>
+            </small></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+
+              <!-- Arxiv PDF link -->
+              <span class="link-block">
+                <!-- <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark"> -->
+                <a class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Supplementary PDF link -->
+              <!-- <span class="link-block">
+                <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supplementary</span>
+                </a>
+              </span> -->
+
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/4DVLab/DexH2R" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+              <!-- Dataset link -->
+              <span class="link-block">
+                <a href="" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-google-drive"></i>
+                  </span>
+                  <span>Dataset(Coming Soon)</span>
+                </a>
+              </span>
+
+              <!-- ArXiv abstract Link -->
+              <span class="link-block">
+                <!-- <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                class="external-link button is-normal is-rounded is-dark"> -->
+                <a class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Teaser video -->
+<!--
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section>
+-->
+<!-- End teaser video -->
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+
+      <!-- <h2 class="title is-3">Video Presentation</h2> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+
+            <iframe src="https://www.youtube.com/embed/2sW3iohzwts" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Handover between a human and a dexterous robotic hand is a fundamental yet challenging task in human-robot collaboration. It requires handling dynamic environments and a wide variety of objects, and demands robust and adaptive grasping strategies. However, progress in developing effective dynamic dexterous grasping methods is limited by the absence of high-quality, real-world human-to-robot handover datasets. Existing datasets primarily focus on grasping static objects or rely on synthesized handover motions, which differ significantly from real-world robot motion patterns, creating a substantial gap in applicability. In this paper, we introduce <span style="color: #184cff; font-weight: bold;">DexH2R</span>, a comprehensive real-world dataset for human-to-robot handovers, built on dexterous robotic hand. Our dataset captures a diverse range of interactive objects, dynamic motion patterns, rich visual sensor data, and detailed annotations. Additionally, to ensure natural and human-like dexterous motions, we utilize teleoperation for data collection, enabling the robot’s movements to align with human behaviors and habits, which is a crucial characteristic for intelligent humanoid robots. Furthermore, we propose an effective solution, <span style="color: #184cff; font-weight: bold;">DynamicGrasp</span>, for human-to-robot handover and evaluate various state-of-the-art approaches, including auto-regressive models and diffusion policy methods, providing a thorough comparison and analysis. We believe our benchmark will drive advancements in human-to-robot handover research by offering a high-quality dataset, effective solutions, and comprehensive evaluation metrics.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Start real robot result -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Real Robot Results</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <!-- Video Pair 1 -->
+        <div class="item">
+          <div class="columns">
+            <div class="column">
+              <video poster="" id="video1" autoplay controls muted loop width="100%" >
+                <source src="static/videos/real_robot_0.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column">
+              <video poster="" id="video2" autoplay controls muted loop width="100%" >
+                <source src="static/videos/real_robot_1.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <!-- Video Pair 2 -->
+        <div class="item">
+          <div class="columns">
+            <div class="column">
+              <video poster="" id="video3" autoplay controls muted loop width="100%" >
+                <source src="static/videos/real_robot_2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column">
+              <video poster="" id="video4" autoplay controls muted loop width="100%" >
+                <source src="static/videos/real_robot_3.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End real robot result -->
+
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Overview</h2>
+
+            <p>
+            <img src="static/images/teaser.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+            </p>
+            
+            <p>
+              We introduce <span style="color: #184cff; font-weight: bold;">DexH2R</span>, the first real human-to-robot handover dataset, and establish an effective and practical solution <span style="color: #184cff; font-weight: bold;">DynamicGrasp</span> along with a comprehensive benchmark for human-to-robot handover. This benchmark can benefit broad real-world applications and can be extended to robot-to-robot handover tasks.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Hardware System Setup</h2>
+
+            <p>
+            <img src="static/images/hardware_system_setup.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+            </p>
+            
+            <p>
+              <span style="color: #184cff; font-weight: bold;">Overview of our hardware system</span>. The upper part shows the system setup during dataset recording, while the lower part highlights the key components: RealSense D455, Azure Kinect, ZCAM E2, and the teleoperation glove.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Dataset</h2>
+
+            <p>
+            <img src="static/images/table_dataset.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+            </p>
+            
+            <p>
+              <span style="color: #184cff; font-weight: bold;">Comparison with existing handover datasets</span>. Entries marked with * denote datasets that can serve as givers to generate synthetic handover data or act as benchmarks. H2H denotes human-to-human, H2R denotes human-to-robot, H2X denotes human-to-any, and R2X denotes robot-to-any. # indicates attribute count. - represents unavailable data. 
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Dataset Visualization</h2>
+
+            <p>
+            <img src="static/images/annotation.jpeg" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+            </p>
+
+            <p>
+              <img src="static/images/handover_viz_result.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+              </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Our Solution Pipeline</h2>
+
+            <p>
+            <img src="static/images/pipeline.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+            </p>
+            
+            <p>
+              Our dynamic grasping solution for human-to-robot handover consists of three stages: <span style="color: #184cff; font-weight: bold;">(a) grasping pose preparation</span>, <span style="color: #184cff; font-weight: bold;">(b) approaching motion generation</span>, and <span style="color: #184cff; font-weight: bold;">(c) goal pose alignment</span>. In the first stage, we pre-train a grasping pose generation model on large-scale simulation data and fine-tune it with real-world grasping data. The generated pose candidates are refined using physical and geometric filters to guarantee a stable and practical grasping pose. For approaching motion generation, we explore both diffusion-policy and autoregressive methods to generate sequential poses. Once the hand reaches a predefined proximity to the object, the system transitions to the final stage. In the goal pose alignment stage, we employ a simple yet effective linear interpolation method to ensure precise and physically plausible grasping, maintaining accuracy and adherence to environmental constraints for a robust and reliable grasping outcome.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Grasp Pose Preparation Performance</h2>
+
+            <p>
+            <img src="static/images/table_grasp.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+            </p>
+            
+            <p>
+              <span style="color: #184cff; font-weight: bold;">Evaluation results on the DexH2R dataset</span>. We compare cVAE with DexgraspAnything and conduct an ablation study on pretraining with large-scale synthetic data. Results show that training directly on <span style="color: #184cff; font-weight: bold;">DexH2R</span> achieves comparable performance to pretraining on <span style="font-weight: bold;">dexgraspnet</span>, with higher <span style="font-weight: bold;">succ1</span> (89.38 vs. 88.75) and <span style="font-weight: bold;">succ6</span> (35.56 vs. 35.00). This highlights the effectiveness of <span style="color: #184cff; font-weight: bold;">DexH2R</span>'s grasping poses, despite its focus on dynamic human-robot handover tasks.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Our Solution Performance</h2>
+
+            <p>
+              <img src="static/images/table_motion.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+              </p>
+              
+              <p>
+                <span style="color: #184cff; font-weight: bold;">Comparison for Dynamic grasping solutions on test dataset</span>. To comprehensively evaluate the models' robustness and precision, we defined two task modes: <span style="font-weight: bold;">Easy Mode</span> and <span style="font-weight: bold;">Hard Mode</span>. The Easy Mode evaluates the model's ability to understand the global position of the object, while the Hard Mode tests fine-grained pose alignment and collision avoidance in close proximity, crucial for safe and precise interactions. By incorporating both modes, our benchmark provides a balanced evaluation of model robustness, ensuring applicability in real-world scenarios where both global localization and local precision are essential. 
+              </p>
+
+              <!-- <ul>
+                <li><span style="font-weight: bold;">Easy Mode</span>:
+                  <ul>
+                    <li><span style="font-weight: bold;">MotionNet</span> outperformed Diffusion Policy (DP) and Diffusion Policy 3D (DP3) in terms of success rate. This is likely because MotionNet adopts a more aggressive strategy, prioritizing quick object grasping. However, this approach often neglects collision avoidance, resulting in lower safety rates and higher penetration frames.</li>
+                    <li><span style="font-weight: bold;">DP3</span> balances grasping with collision avoidance, achieving a better safety rate compared to MotionNet.</li>
+                    <li><span style="font-weight: bold;">DP</span> adopts a conservative strategy, avoiding collisions by approaching the object slowly. While this improves safety, it often results in failure to grasp within the specified frame limit.</li>
+                  </ul>
+                </li>
+                <li><span style="font-weight: bold;">Hard Mode</span>:
+                  <span style="font-weight: bold;">DP3</span> achieved a success rate comparable to <span style="font-weight: bold;">MotionNet</span> and outperformed <span style="font-weight: bold;">DP</span>, while maintaining a high safety rate. This indicates that <span style="font-weight: bold;">DP3</span> can better perceive the object's precise position through its point cloud input and encoder, ensuring both successful grasping and safety.
+                </li>
+              </ul> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Visualization of our solution's results</h2>
+
+            <p>
+            <img src="static/images/result_gallery.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;">
+            </p>
+            
+            <!-- <p>
+              The qualitative comparison of three baseline methods on approaching motion generation.
+            </p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Real Robot Results</h2>
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <video controls="" muted="" loop="" width="100%">
+              <source src="static/videos/real_robot_0.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video controls="" muted="" loop="" width="100%">
+              <source src="static/videos/real_robot_1.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered" style="margin-top: 1rem;">
+        <div class="column">
+          <div class="content">
+            <video controls="" muted="" loop="" width="100%">
+              <source src="static/videos/real_robot_2.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <video controls="" muted="" loop="" width="100%">
+              <source src="static/videos/real_robot_3.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section> -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
